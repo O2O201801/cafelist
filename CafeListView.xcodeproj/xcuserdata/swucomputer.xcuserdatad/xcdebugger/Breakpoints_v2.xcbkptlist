@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CafeListView/MenuTableViewController.swift"
+            timestampString = "548851935.4380569"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.__deallocating_deinit"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.160759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.__allocating_init(style: __C.UITableViewStyle) -&gt; CafeListView.MenuTableViewController"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.214349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.init(style: __C.UITableViewStyle) -&gt; CafeListView.MenuTableViewController"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.234038"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CafeListView.MenuTableViewController"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.245917"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CafeListView.MenuTableViewController"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.2525949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;CafeListView.MenuTableViewController&gt;"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.28061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CafeListView.MenuTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;CafeListView.MenuTableViewController&gt;"
+                  moduleName = "CafeListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swucomputer/Documents/Login_CafeList/CafeListView/CafeListView/MenuTableViewController.swift"
+                  timestampString = "548851936.291981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

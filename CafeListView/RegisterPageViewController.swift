@@ -8,11 +8,12 @@
 
 import UIKit
 
-class RegisterPageViewController: UIViewController {
+class RegisterPageViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet var userEmailTextField: UITextField!
     @IBOutlet var userPasswordTextField: UITextField!
     @IBOutlet var repeatPasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,19 +25,16 @@ class RegisterPageViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   
-    @IBAction func registerButtonTapped(sender: Any) {
-        let userEmail = userEmailTextField.text
-        let userPassword = userPasswordTextField.text
-        let userRepeatPassword = repeatPasswordTextField.text
+    @IBAction func registerTapped() {
+        let userEmail = userEmailTextField.text;
+        let userPassword = userPasswordTextField.text;
+        let userRepeatPassword = repeatPasswordTextField.text;
         
         // Check for empty fields
         if((userEmail?.isEmpty)! || (userPassword?.isEmpty)! || (userRepeatPassword?.isEmpty)!)
         {
             //Display alert message
-            
             displayMyAlertMessage(userMessage: "All fields are required");
-            
             return
         }
         
@@ -48,14 +46,17 @@ class RegisterPageViewController: UIViewController {
             return
         }
         
-
-        // Store data
+        
+        print(userEmail)
+        // Store data--register와 login 데이터 비교
         UserDefaults.standard.set(userEmail, forKey:"UserEmail")
         UserDefaults.standard.set(userPassword, forKey:"UserPassword")
-        UserDefaults.standard.synchronize()
+        //UserDefaults.standard.synchronize()
+        
+        print(UserDefaults.standard.string(forKey: "UserEmail"))
         
         // Display alert message with confirmation
-        var myAlert = UIAlertController(title : "Alert", message:"Registration is successful. Tahnk you!", preferredStyle : UIAlertControllerStyle.alert)
+        let myAlert = UIAlertController(title : "Alert", message:"Registration is successful. Thank you!", preferredStyle : UIAlertControllerStyle.alert)
         
         let okAction = UIAlertAction(title:"OK", style: UIAlertActionStyle.default)
         {
@@ -67,9 +68,10 @@ class RegisterPageViewController: UIViewController {
     }
     
     
+    
     func displayMyAlertMessage(userMessage:String)
     {
-        var myAlert = UIAlertController(title : "Alert", message:userMessage, preferredStyle : UIAlertControllerStyle.alert)
+        let myAlert = UIAlertController(title : "Alert", message:userMessage, preferredStyle : UIAlertControllerStyle.alert)
         
         let okAction = UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler:nil)
         
@@ -78,6 +80,11 @@ class RegisterPageViewController: UIViewController {
         self.present(myAlert, animated: true, completion: nil)
     }
     
+    // TextField Delegate (수지)
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
    
 
 }

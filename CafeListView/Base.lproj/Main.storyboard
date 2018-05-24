@@ -30,7 +30,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="5o5-7V-5mi" id="fEc-Hn-s8E"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwN-0b-zKS">
                                 <rect key="frame" x="16" y="211" width="343" height="21"/>
@@ -44,7 +47,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="name"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="name"/>
+                                <connections>
+                                    <outlet property="delegate" destination="5o5-7V-5mi" id="4Dg-6R-oDg"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhn-Rn-bce">
                                 <rect key="frame" x="142" y="374" width="90" height="30"/>
@@ -53,7 +59,7 @@
                                 <color key="tintColor" red="0.98297581079999996" green="0.95964687800000004" blue="0.99942404029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Log in"/>
                                 <connections>
-                                    <action selector="loginButtonTapped:" destination="ADs-UC-Gic" eventType="touchUpInside" id="5YU-mR-3mU"/>
+                                    <action selector="logintapped" destination="5o5-7V-5mi" eventType="touchUpInside" id="6Me-ij-Tms"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqw-Pk-Lvx">
@@ -68,10 +74,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Ghr-6P-dnN"/>
                     </view>
+                    <connections>
+                        <outlet property="userEmailTextField" destination="AHA-1c-13p" id="jkI-0J-bko"/>
+                        <outlet property="userPasswordTextField" destination="7Tu-WU-dTl" id="Ign-Bx-1L2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Mk-86-unE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-206" y="197"/>
+            <point key="canvasLocation" x="-207.19999999999999" y="196.55172413793105"/>
         </scene>
         <!--Cafe Table View Controller-->
         <scene sceneID="e2Z-97-zM1">
@@ -236,14 +246,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="iKi-di-qtj" id="4wd-CC-cNC"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password : " textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="53Z-nX-ZyE">
                                 <rect key="frame" x="16" y="228" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="iKi-di-qtj" id="fPA-YC-93q"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Repeat Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W70-pX-MdL">
                                 <rect key="frame" x="16" y="280" width="343" height="21"/>
@@ -257,7 +273,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="iKi-di-qtj" id="Jwa-Q8-VbW"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmq-ZK-blM">
                                 <rect key="frame" x="142" y="411" width="90" height="30"/>
@@ -266,13 +285,16 @@
                                 <color key="tintColor" red="0.98297581079999996" green="0.95964687800000004" blue="0.99942404029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="registerButtonTapped:" destination="iKi-di-qtj" eventType="touchUpInside" id="rDC-36-ILu"/>
+                                    <action selector="registerTapped" destination="iKi-di-qtj" eventType="touchUpInside" id="xZn-F3-c7G"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZ1-6O-6mP">
                                 <rect key="frame" x="16" y="466" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="I have an account. Let me login"/>
+                                <connections>
+                                    <segue destination="5o5-7V-5mi" kind="show" id="1Il-h9-vj0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -286,7 +308,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Qd-cr-fI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-207" y="993"/>
+            <point key="canvasLocation" x="-207.19999999999999" y="992.65367316341838"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="DuU-hs-Zp2"/>
+    </inferredMetricsTieBreakers>
 </document>
