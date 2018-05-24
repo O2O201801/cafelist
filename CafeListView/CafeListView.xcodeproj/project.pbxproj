@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD42CAA920A88E5400DE365C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42CAA820A88E5400DE365C /* LoginViewController.swift */; };
+		CD42CAAB20A89BDD00DE365C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42CAAA20A89BDD00DE365C /* ViewController.swift */; };
+		CD8D6CF120A87EB90084415F /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D6CF020A87EB90084415F /* RegisterPageViewController.swift */; };
+		CD970128209970C500CB1291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD970127209970C500CB1291 /* AppDelegate.swift */; };
+		CD97012D209970C500CB1291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD97012B209970C500CB1291 /* Main.storyboard */; };
+		CD970130209970C500CB1291 /* CafeListView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD97012E209970C500CB1291 /* CafeListView.xcdatamodeld */; };
+		CD970132209970C500CB1291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD970131209970C500CB1291 /* Assets.xcassets */; };
+		CD970135209970C500CB1291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD970133209970C500CB1291 /* LaunchScreen.storyboard */; };
+		CDC16BD62099855F006ECFE2 /* CafeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC16BD52099855F006ECFE2 /* CafeTableViewController.swift */; };
+		CDC16BD820998B10006ECFE2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC16BD720998B10006ECFE2 /* MenuTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD42CAA820A88E5400DE365C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD42CAAA20A89BDD00DE365C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD8D6CF020A87EB90084415F /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		CD970124209970C500CB1291 /* CafeListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD970127209970C500CB1291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD97012C209970C500CB1291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD97012F209970C500CB1291 /* CafeListView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CafeListView.xcdatamodel; sourceTree = "<group>"; };
+		CD970131209970C500CB1291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD970134209970C500CB1291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD970136209970C500CB1291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC16BD52099855F006ECFE2 /* CafeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeTableViewController.swift; sourceTree = "<group>"; };
+		CDC16BD720998B10006ECFE2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD970121209970C500CB1291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD97011B209970C400CB1291 = {
+			isa = PBXGroup;
+			children = (
+				CD970126209970C500CB1291 /* CafeListView */,
+				CD970125209970C500CB1291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD970125209970C500CB1291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD970124209970C500CB1291 /* CafeListView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD970126209970C500CB1291 /* CafeListView */ = {
+			isa = PBXGroup;
+			children = (
+				CD970127209970C500CB1291 /* AppDelegate.swift */,
+				CD42CAAA20A89BDD00DE365C /* ViewController.swift */,
+				CDC16BD52099855F006ECFE2 /* CafeTableViewController.swift */,
+				CDC16BD720998B10006ECFE2 /* MenuTableViewController.swift */,
+				CD97012B209970C500CB1291 /* Main.storyboard */,
+				CD42CAA820A88E5400DE365C /* LoginViewController.swift */,
+				CD8D6CF020A87EB90084415F /* RegisterPageViewController.swift */,
+				CD970131209970C500CB1291 /* Assets.xcassets */,
+				CD970133209970C500CB1291 /* LaunchScreen.storyboard */,
+				CD970136209970C500CB1291 /* Info.plist */,
+				CD97012E209970C500CB1291 /* CafeListView.xcdatamodeld */,
+			);
+			path = CafeListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD970123209970C500CB1291 /* CafeListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD970139209970C500CB1291 /* Build configuration list for PBXNativeTarget "CafeListView" */;
+			buildPhases = (
+				CD970120209970C500CB1291 /* Sources */,
+				CD970121209970C500CB1291 /* Frameworks */,
+				CD970122209970C500CB1291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeListView;
+			productName = CafeListView;
+			productReference = CD970124209970C500CB1291 /* CafeListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD97011C209970C400CB1291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CD970123209970C500CB1291 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD97011F209970C400CB1291 /* Build configuration list for PBXProject "CafeListView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD97011B209970C400CB1291;
+			productRefGroup = CD970125209970C500CB1291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD970123209970C500CB1291 /* CafeListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD970122209970C500CB1291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD970135209970C500CB1291 /* LaunchScreen.storyboard in Resources */,
+				CD970132209970C500CB1291 /* Assets.xcassets in Resources */,
+				CD97012D209970C500CB1291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD970120209970C500CB1291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD42CAA920A88E5400DE365C /* LoginViewController.swift in Sources */,
+				CDC16BD820998B10006ECFE2 /* MenuTableViewController.swift in Sources */,
+				CD8D6CF120A87EB90084415F /* RegisterPageViewController.swift in Sources */,
+				CD970128209970C500CB1291 /* AppDelegate.swift in Sources */,
+				CD42CAAB20A89BDD00DE365C /* ViewController.swift in Sources */,
+				CD970130209970C500CB1291 /* CafeListView.xcdatamodeld in Sources */,
+				CDC16BD62099855F006ECFE2 /* CafeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD97012B209970C500CB1291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD97012C209970C500CB1291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD970133209970C500CB1291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD970134209970C500CB1291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD970137209970C500CB1291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD970138209970C500CB1291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD97013A209970C500CB1291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swu.CafeListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD97013B209970C500CB1291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swu.CafeListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD97011F209970C400CB1291 /* Build configuration list for PBXProject "CafeListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD970137209970C500CB1291 /* Debug */,
+				CD970138209970C500CB1291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD970139209970C500CB1291 /* Build configuration list for PBXNativeTarget "CafeListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD97013A209970C500CB1291 /* Debug */,
+				CD97013B209970C500CB1291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD97012E209970C500CB1291 /* CafeListView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD97012F209970C500CB1291 /* CafeListView.xcdatamodel */,
+			);
+			currentVersion = CD97012F209970C500CB1291 /* CafeListView.xcdatamodel */;
+			path = CafeListView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD97011C209970C400CB1291 /* Project object */;
+}
